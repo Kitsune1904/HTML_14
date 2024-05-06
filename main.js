@@ -23,7 +23,7 @@ alert(sum/3)
 let num = 1;
 let sum = 0;
 while (num <= 3) {
-    sum += (+prompt(`Write your ${i} number`))
+    sum += (+prompt(`Write your ${num} number`))
     num++
 }
 alert(sum/3) 
